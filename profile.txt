@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/*layout, structures and style*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to top, #99ff99 0%, #99ccff 100%);
+}
+header {
+  background: linear-gradient(to bottom, #cc33ff 0%, #ff99cc 100%);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border:5px dashed white;
+  text-decoration: overline;
+
+}
+.menu {
+  float: left;
+  width: 30%;
+  height: 500px; 
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  padding: 20px;
+  color : red;
+  border:4px solid black;
+  font-family: algerian;
+  text-decoration: underline;
+}
+.description {
+  float: left;
+  padding: 20px;
+  width: 35%;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+  height: 500px;
+  border:7px white;
+  border-style: dashed dotted double;
+}
+.description1 {
+  float: right;
+  padding: 20px;
+  width: 35%;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  height: 500px;
+  color : grey;
+  border:3px solid #b399ff;
+}
+.header2 {   
+  -ms-flex: 70%;  flex: 70%;
+  background-color: blue;
+  position: sticky;
+  padding: 20px;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+  color:white;
+  border:6px double grey;
+  text-decoration: line-through;
+    opacity: 1.0;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1576109959614-JQLPDAFVBOOMM1MRIPOD/ke17ZwdGBToddI8pDm48kIHWgU7HpBspsWWCBPTMc80UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcL_JBFHD4udJ5V2axh2xLAhL9PznQzEybMhg3o13D5xf2jH5PJVelxoWfZFqNYr-j/Cover3.jpg);
+  background-position: bottom;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  border:5px solid blue;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/1/18/Overlord_novel.jpg);
+}
+.uwwa{
+  font-family: algerian;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: blink;
+}
+
+</style>
+</head>
+<body>
+  <div class = "header2">
+    <h2>Almarez, Joshua Carbie D.</h2>
+    <h2>Student</h2>
+</div>
+
+  <header>
+    <h2>PROFILE</h2>
+    <p class  = "active"> 1st year Student of University of Cordillera but taking a 2nd year and 3rd year subjects.</p>
+</header>
+
+  <div class = "uwwa">
+    <ul>
+    <li><a href = "resume.html">HOME</a></li>
+  </ul>
+</div>
+<div class = "description1">
+    <p style = "font-size: 20px">I have experienced farming and selling corns for 6 years, and computershop attendant for 1 year</p>
+</div>
+  <div class = "menu">
+      <ul>
+        <li><h1>INFORMATION</h1></li>
+        <li><h2>ADRRESS:</h2>
+      <ul>
+        <li><h3>Marat Paracelis MT. Province </h3></li>
+  </ul>
+  </li>
+        <li><h2>PHONE:</h2>
+      <ul>
+        <li><h3>09166661341</h3></li>
+  </ul>
+  </li>
+</ul>
+</div>
+
+  <div class = "description">
+    <ul>
+      <li><h1>SKILLS:</h1>
+    <ul>
+      <li><h3>Problem solving</h3></li>
+      <li><h3>Verbal and Written communication</h3></li>
+      <li><h3>Relationship Building</h3></li>
+</ul>
+</li>
+  <div>
+    <li><h1>EMPLOYMENT HISTORY:</h1>
+  <ul>
+    <li><h3>CORN FARMER</h3></li>
+    <li><h3>COMPUTERSHOP ATTENDANT</h3></li>
+</ul>
+</li>
+</div>
+</div>
+  <div class = "footer">
+    <h1><a href="https://almarezjoshuacarbi.wixsite.com/mysite?fbclid=IwAR1ZI7TRp6he5JVg9vVQ0vgpXRn2VsP26nrZXQLvNMvbjA74XmqZYdCachg">For more Information click here</a></h1>
+</div>
+</body>
+</html>
